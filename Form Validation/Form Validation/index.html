@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Registration Form Validation</title>
+
+		<link rel="stylesheet" href="style.css" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h2>Registration Form</h2>
+			</div>
+			<form action="/action_page.php" class="form" id="form">
+				<div class="form_control">
+					<label for="Fullname">Username</label>
+					<input
+						type="text"
+						name="username"
+						id="username"
+						placeholder="Enter your Fullname"
+						autocomplete="off"
+					/>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Msg</small>
+				</div>
+
+				<div class="form_control">
+					<label for="email">Email</label>
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Enter your Email"
+						autocomplete="off"
+					/>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Msg</small>
+				</div>
+
+				<div class="form_control">
+					<label for="">Phone</label>
+					<input
+						type="number"
+						name="phone"
+						id="phone"
+						placeholder="Enter your Phone-number"
+						autocomplete="off"
+					/>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Msg</small>
+				</div>
+
+				<div class="form_control">
+					<label for="">Password</label>
+					<input
+						type="password"
+						name="password"
+						id="password"
+						placeholder="Enter your password"
+					/>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Msg</small>
+				</div>
+
+				<div class="form_control">
+					<label for="">Confirm Password</label>
+					<input
+						type="password"
+						name="cpasswrod"
+						id="cpasswrod"
+						placeholder="Confirm Passwrod"
+					/>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+					<small>Error Msg</small>
+				</div>
+
+				<input type="submit" value="Submit" class="btn" name="" />
+			</form>
+		</div>
+
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+		<script src="main.js"></script>
+	</body>
+</html>

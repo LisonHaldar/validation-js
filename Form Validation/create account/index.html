@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Create Account</title>
+
+		<!-- ========== Style Css ========= -->
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- ========== Unicons ========= -->
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h2>Create Account</h2>
+			</div>
+			<form action="" class="form" id="form">
+				<div class="form_control">
+					<label for="fullname">Username</label>
+					<input type="text" placeholder="name" id="username" autocomplete="off" />
+					<i class="uil uil-check-circle"></i>
+					<i class="uil uil-exclamation-circle"></i>
+					<small>Error Message</small>
+				</div>
+
+				<div class="form_control">
+					<label for="email">Email</label>
+					<input type="email" placeholder="email" id="email" autocomplete="off" />
+					<i class="uil uil-check-circle"></i>
+					<i class="uil uil-exclamation-circle"></i>
+					<small>Error Message</small>
+				</div>
+
+				<div class="form_control">
+					<label for="password">Password</label>
+					<input
+						type="password"
+						placeholder="password"
+						id="password"
+						autocomplete="off"
+					/>
+					<i class="uil uil-check-circle"></i>
+					<i class="uil uil-exclamation-circle"></i>
+					<small>Error Message</small>
+				</div>
+
+				<div class="form_control">
+					<label for="Confirm Password">Confirm Password</label>
+					<input
+						type="password"
+						placeholder="Confirm Password"
+						id="cpassword"
+						autocomplete="off"
+					/>
+					<i class="uil uil-check-circle"></i>
+					<i class="uil uil-exclamation-circle"></i>
+					<small>Error Message</small>
+				</div>
+
+				<button type="submit" value="submit" class="btn">Submit</button>
+			</form>
+		</div>
+
+		<script src="validation.js"></script>
+	</body>
+</html>
